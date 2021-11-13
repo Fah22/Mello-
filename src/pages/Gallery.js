@@ -1,7 +1,7 @@
 import React from "react";
 
-const PageThree = () => {
+const Gallery = () => {
     return <h1>Page Three</h1>;
 };
 
-export default PageThree;
+export default Gallery;
