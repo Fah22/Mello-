@@ -38,7 +38,7 @@ const Header = () => {
 
     const ctaClickHandler = () => {
         menuToggleHandler();
-        history.push("/page-cta");
+        history.push("/Contact");
     };
 
     return (
@@ -54,17 +54,17 @@ const Header = () => {
                 >
                     <ul>
                         <li>
-                            <Link to="/page-one" onClick={menuToggleHandler}>
+                            <Link to="/" onClick={menuToggleHandler}>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-two" onClick={menuToggleHandler}>
+                            <Link to="/Blog" onClick={menuToggleHandler}>
                                 Blog
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-three" onClick={menuToggleHandler}>
+                            <Link to="/Gallery" onClick={menuToggleHandler}>
                                 Gallery
                             </Link>
                         </li>
