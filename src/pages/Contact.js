@@ -1,7 +1,14 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const Contact = () => {
-    return <h1>CTA Page</h1>;
+    return (
+        <Layout>
+            <button className="contact">
+                Call Us
+            </button>
+        </Layout>
+    )
 };
 
 export default Contact;
