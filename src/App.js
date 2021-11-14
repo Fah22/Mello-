@@ -1,4 +1,3 @@
-import Layout from "./components/Layout";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import PageTwo from "./pages/Blog";
@@ -7,7 +6,7 @@ import PageCTA from "./pages/Contact";
 
 function App() {
     return (
-        <Layout>
+        
             <Switch>
                 <Route path="/" exact>
                     <Home />
@@ -22,7 +21,6 @@ function App() {
                     <PageCTA />
                 </Route>
             </Switch>
-        </Layout>
     );
 }
 

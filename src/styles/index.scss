@@ -14,3 +14,21 @@ body {
 #root {
     height: 100%;
 }
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.grid-col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.grid-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}

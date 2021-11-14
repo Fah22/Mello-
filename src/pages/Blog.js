@@ -1,7 +1,13 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const Blog = () => {
-    return <h1>Page Two</h1>;
+    return (
+        <Layout>
+            <h1>Blog</h1>
+            <p>No posts yet</p>
+        </Layout>
+    )
 };
 
 export default Blog;
